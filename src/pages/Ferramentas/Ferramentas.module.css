@@ -1,11 +1,19 @@
-.container div{
-  width: 50%;
+.container {
+  width: 900px;
    display: flex;
+   width: 80%;
+   align-items: center;
    justify-content: space-around;
-   margin: 30px;
+   padding: 0;
+   margin: 0px auto;
+}
+
+.container div{
+  justify-content: space-around;
 }
 
 .container span {
+
   font-weight: bold;
   font-size: 2rem;
   margin: 10px 20px;
@@ -16,21 +24,35 @@
   text-align: justify;
 }
 
-.container table {
-  width: 40%;
+.bio {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 4rem;
+  background-color: var(--soft-blue);
+  color: var(--bluesjc-1);
+  border: 2px solid red;
+}
+
+.description {
+  width: 50%;
+  text-align: justify;
+}
+
+.tabela {
   font-size: 1rem;
+  display: flex;
   border: 1px solid var(--bluesjc-1);
-  width: 700px;
   border-collapse: collapse;
   margin: auto;
   box-shadow: 2px 2px 5px black;
   position: relative;
 }
 
-.container thead>tr>th{
+.tabela thead>tr>th{
   background-color: var(--bluesjc-2);
 }
-.container tbody>tr:nth-child(even){
+.tabela tbody>tr:nth-child(even){
   background-color: lightblue;
 }
 
@@ -38,7 +60,3 @@
     border: 1px solid gray;
     padding: 5px;
   }
-
-.container .tabela {
-  display: flex;
-}

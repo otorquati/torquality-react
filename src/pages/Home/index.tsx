@@ -2,6 +2,7 @@ import styles from './Home.module.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer'
 import Container from '../../components/Container';
+import BP from '../../images/bp-torquality.svg'
 import { Link } from 'react-router-dom';
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
             </Link>
           </div>
           <figure className={styles.img}>
-            <img className={styles.img_img} src="../../../public/torquality_img.svg" alt="TorQuality" />
+            <img className={styles.bp_img} src={BP} alt="TorQuality" />
           </figure>
         </section>
       </Container>

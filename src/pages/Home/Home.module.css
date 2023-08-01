@@ -11,13 +11,14 @@
 .home p {
   font-size: 2rem;
   padding: 10px;
-  color: var(--bluesjc-2)
+  color: var(--bluesjc-2);
+  text-align: left;
 }
 
 .home span {
   font-size: 3rem;
   font-weight: bold;
-  color: #d7ebf4
+  color: var(--gold-sjc-4)
 }
 
 .btn {
@@ -41,9 +42,11 @@
 }
 
 .img {
-  width: 400px;
-  height: 400px;
   align-items: center;
   justify-items: auto;  
+}
 
+.bp_img { 
+  width: 600px;
+  height: 600px;
 }
