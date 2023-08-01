@@ -1,0 +1,44 @@
+.container div{
+  width: 50%;
+   display: flex;
+   justify-content: space-around;
+   margin: 30px;
+}
+
+.container span {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10px 20px;
+}
+
+.container p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.container table {
+  width: 40%;
+  font-size: 1rem;
+  border: 1px solid var(--bluesjc-1);
+  width: 700px;
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 2px 2px 5px black;
+  position: relative;
+}
+
+.container thead>tr>th{
+  background-color: var(--bluesjc-2);
+}
+.container tbody>tr:nth-child(even){
+  background-color: lightblue;
+}
+
+.container th, tr, td {
+    border: 1px solid gray;
+    padding: 5px;
+  }
+
+.container .tabela {
+  display: flex;
+}

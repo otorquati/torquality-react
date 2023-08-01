@@ -32,10 +32,29 @@
   justify-content: center;
 }
 
-.sobre p {
-  font-size: 1.5rem;
+.container {
+  font-size: 2rem;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-
+  justify-content: space-around;
+  background-color: var(--soft-blue);
+  color: var(--bluesjc-2);
 }
+
+.container div {
+  width: 50%;
+}
+.container span {
+  font-weight: bold;
+  color: var(--hgold-sjc-4);
+}
+
+.container p {
+  text-align: justify;
+}
+
+.container img {
+  height: 300px;
+  border-radius: 25%;
+}
+

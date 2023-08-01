@@ -1,4 +1,8 @@
 .container {
   width: 100%;
   min-height: 85vh;
+  font-size: 3rem;
+  display: flex;
+  background-color: var(--soft-blue);
+  color: var(--bluesjc-2);
 }

@@ -8,18 +8,16 @@ function Sobre() {
   <>
     <Header />
     <Container>
-      <section className={styles.sobre}>
-        <h1>Sobre a Torquality Consulting</h1>
-      <div className={styles.bio}>
-        <div className={styles.info}>
-          <p>Somos uma cosultoria com 20 anos de experiência, especializada na implantação
-             / manutenção de sistemas de gestão, seja da Qualidade, 
-          Meio Ambiente ou Integrado. </p>
+      <section className={styles.container}>
+        <div>
+          <p>Somos a <br/>
+          <span>Torquality Consulting</span> <br/>
+          uma consultoria com 20 anos de experiência, especializada na implantação/manutenção de 
+          sistemas de gestão, seja da Qualidade, Meio Ambiente ou Integrado. </p>
         </div>
-        <div className={styles.foto}>
+        <figure className={styles.img}>
           <img src="/src/images/Torquati_3x4.jpg" alt="" />
-        </div>
-      </div>
+        </figure>
       </section>
     </Container>
     <Footer />

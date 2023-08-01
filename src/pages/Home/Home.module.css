@@ -5,18 +5,19 @@
   display: flex;
   align-items: center;
   justify-content:space-evenly;
-  background-color: var(--white);
+  background-color: var(--soft-blue);
 }
 
 .home p {
   font-size: 2rem;
   padding: 10px;
-  color: var(--enhanced-sjc-2)
+  color: var(--bluesjc-2)
 }
 
 .home span {
   font-size: 3rem;
   font-weight: bold;
+  color: #d7ebf4
 }
 
 .btn {
@@ -28,14 +29,14 @@
   text-decoration: none;
   border-radius: 1rem;
   font-size: 1.5rem;
-  background-color: var(--enhanced-sjc-1);
+  background-color: var(--bluesjc-3);
   color: var(--hgold-sjc-1);
   padding: 10px;
   cursor: pointer;
 }
 
 .btn:hover{
-  color: var(--enhanced-sjc-1);
+  color: var(--bluesjc-3);
   background-color: var(--hgold-sjc-1); ;
 }
 
