@@ -7,7 +7,7 @@ function Ferramentas() {
   return ( 
     <>
     <Header />
-        <div className={styles.bio}>
+        <div className={styles.header}>
           <div>
             <span>Ferramentas da Qualidade</span>
           </div>      

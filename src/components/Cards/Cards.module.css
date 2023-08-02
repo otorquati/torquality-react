@@ -1,0 +1,47 @@
+.cards {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--bluesjc-3);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px var(--shadow);
+  text-align: left;
+}
+
+.cards h3 {
+  width: 100%;
+  background-color: var(--bluesjc-1);
+  color: var(--gold-sjc-0);
+  text-align: center;
+}
+
+.card_footer {
+  width: 90%;
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.card_icones {
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  font-size: 	1.5rem;
+}
+
+.botao {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--bluesjc-1);
+  color: var(--gold-sjc-0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

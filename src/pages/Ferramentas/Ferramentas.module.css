@@ -24,14 +24,13 @@
   text-align: justify;
 }
 
-.bio {
+.header {
   width: 100%;
   margin: auto;
   text-align: center;
   font-size: 4rem;
   background-color: var(--soft-blue);
   color: var(--bluesjc-1);
-  border: 2px solid red;
 }
 
 .description {

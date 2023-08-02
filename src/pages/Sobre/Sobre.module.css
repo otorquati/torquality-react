@@ -10,7 +10,8 @@
 .container div {
   width: 40%;
 }
-.container span {
+.container strong {
+  font-size: 3rem;
   font-weight: bold;
   color: var(--hgold-sjc-4);
 }

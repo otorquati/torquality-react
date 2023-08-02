@@ -1,17 +1,19 @@
 import Container from '../../components/Container';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
-import styles from './style.module.css';
+import styles from './Artigos.module.css';
 
 function Artigos() {
   return ( 
-    <div className={styles.artigos}>
-      <Header />
+    <>
+    <Header />
       <Container>
-        <h1>Página de Artigos</h1>
+        <div className={styles.artigos}>
+          <h1>Página de Artigos</h1>
+        </div>
       </Container>
       <Footer />
-    </div>
+    </>
    );
 }
 

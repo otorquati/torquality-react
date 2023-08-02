@@ -14,6 +14,7 @@ function Header() {
         <Link className={styles.link} to="/projetos">Projetos</Link>
         <Link className={styles.link} to="/ferramentas">Ferramentas</Link>
         <Link className={styles.link} to="/videos">Vídeos</Link>
+        <Link className={styles.link} to="/servicos">Serviços</Link>
         <Link className={styles.link} to="/contatos">Contatos</Link>
         <Link className={styles.link} to="/sobre">Sobre</Link>
       </nav>

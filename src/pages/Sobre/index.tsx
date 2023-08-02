@@ -13,7 +13,7 @@ function Sobre() {
       <section className={styles.container}>
         <div className={styles.bio}>
           <p>Somos a <br/>
-          <span>Torquality Consulting</span> <br/>
+          <strong>Torquality Consulting</strong> <br/>
           uma consultoria com 20 anos de experiência, especializada na implantação/manutenção de 
           sistemas de gestão, seja da Qualidade, Meio Ambiente ou Integrado. </p>
         </div>
