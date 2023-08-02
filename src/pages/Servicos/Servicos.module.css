@@ -1,10 +1,11 @@
 .container {
   font-size: 2rem;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
   background-color: var(--soft-blue);
   color: var(--bluesjc-2);
+  margin: 50px auto 100px;
+
 }
 
 .header {
@@ -14,4 +15,23 @@
   font-size: 4rem;
   background-color: var(--soft-blue);
   color: var(--bluesjc-1);
+}
+
+.tabela {
+  width: 80vw;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 10px var(--shadow);
+  position: relative;
+}
+
+.tabela thead>tr>th{
+  background-color: var(--bluesjc-2);
+  color: white;
+}
+.tabela tbody>tr:nth-child(even){
+  background-color: lightblue;
+}
+
+.custo, .norma {
+  text-align: center;
 }

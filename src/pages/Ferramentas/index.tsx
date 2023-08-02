@@ -8,9 +8,7 @@ function Ferramentas() {
     <>
     <Header />
         <div className={styles.header}>
-          <div>
-            <span>Ferramentas da Qualidade</span>
-          </div>      
+          <span>Ferramentas da Qualidade</span>
         </div>
     <Container>
       <section className={styles.container}>
@@ -70,7 +68,7 @@ function Ferramentas() {
                 <td><a href="./forms/PPM-Calculator.xls">PPM-Calculator</a></td>
               </tr>
               <tr>
-                <td class="Item">9</td>
+                <td >9</td>
                 <td>Ferramenta de Solução de Problemas</td>
                 <td><a href="./forms/Problem_Solving_Tools.xls">Problem_Solving_Tools</a></td>
               </tr>

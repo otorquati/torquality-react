@@ -13,7 +13,7 @@ function AppRouter() {
   return ( 
     <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/artigos" element={<Artigos />}></Route>
           <Route path="/projetos" element={<Projetos />}></Route>
           <Route path="/ferramentas" element={<Ferramentas />}></Route>
